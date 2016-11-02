@@ -1,0 +1,29 @@
+#intro-image {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#intro_image_div {
+  position: relative;
+}
+
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+	padding-top: 20px;
+}
+
+ul.nav a:hover { 
+	color: orange !important; 
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1000px;
+    }
+}
+
+footer {
+	padding: 20px 0px 20px 0px;
+}

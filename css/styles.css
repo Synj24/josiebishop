@@ -7,3 +7,7 @@
 #intro_image_div {
   position: relative;
 }
+
+#navbar navbar-default {
+	background-color: none;
+}
