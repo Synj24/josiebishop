@@ -12,7 +12,7 @@
   <!-- Bootstrap CDN -->
 
   <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
 
   <!-- Custom stylesheet -->
   <link rel="stylesheet" type="text/css" href="css/custom.css">
@@ -21,7 +21,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
   <!-- Latest compiled JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -32,7 +32,7 @@
 <body>
   
 <nav class="navbar navbar-default">
-  <div class="container">
+  <div class="container" id="nav-cont">
     <div class="navbar-header">
       <a href="index.html"><img src="img/graphics/logo.png" alt="Josie Bishop"></a>
     </div>
@@ -47,53 +47,58 @@
 
 <div class="container">
 	<div class="row">
-		<div class="col-md-2"><img src="img/thumbs/thumb-01.png" alt=""></div>
-		<div class="col-md-2"><img src="img/thumbs/thumb-01.png" alt=""></div>
-		<div class="col-md-2"><img src="img/thumbs/thumb-01.png" alt=""></div>
-		<div class="col-md-2"><img src="img/thumbs/thumb-01.png" alt=""></div>
-		<div class="col-md-2"><img src="img/thumbs/thumb-01.png" alt=""></div>
-	</div>
-	<div class="row">
-		<div class="col-md-2"><img src="img/thumbs/thumb-01.png" alt=""></div>
-		<div class="col-md-2"><img src="img/thumbs/thumb-01.png" alt=""></div>
-		<div class="col-md-2"><img src="img/thumbs/thumb-01.png" alt=""></div>
-		<div class="col-md-2"><img src="img/thumbs/thumb-01.png" alt=""></div>
-		<div class="col-md-2"><img src="img/thumbs/thumb-01.png" alt=""></div>
-	</div>
-	<div class="row">
-		<div class="col-md-2"><img src="img/thumbs/thumb-01.png" alt=""></div>
-		<div class="col-md-2"><img src="img/thumbs/thumb-01.png" alt=""></div>
-		<div class="col-md-2"><img src="img/thumbs/thumb-01.png" alt=""></div>
-		<div class="col-md-2"><img src="img/thumbs/thumb-01.png" alt=""></div>
-		<div class="col-md-2"><img src="img/thumbs/thumb-01.png" alt=""></div>
-	</div>
-	<div class="row">
-		<div class="col-md-2"><img src="img/thumbs/thumb-01.png" alt=""></div>
-		<div class="col-md-2"><img src="img/thumbs/thumb-01.png" alt=""></div>
-		<div class="col-md-2"><img src="img/thumbs/thumb-01.png" alt=""></div>
-		<div class="col-md-2"><img src="img/thumbs/thumb-01.png" alt=""></div>
-		<div class="col-md-2"><img src="img/thumbs/thumb-01.png" alt=""></div>
-	</div>
-	<div class="row">
-		<div class="col-md-2"><img src="img/thumbs/thumb-01.png" alt=""></div>
-		<div class="col-md-2"><img src="img/thumbs/thumb-01.png" alt=""></div>
-		<div class="col-md-2"><img src="img/thumbs/thumb-01.png" alt=""></div>
-		<div class="col-md-2"><img src="img/thumbs/thumb-01.png" alt=""></div>
-		<div class="col-md-2"><img src="img/thumbs/thumb-01.png" alt=""></div>
-	</div>
-	<div class="row">
-		<div class="col-md-2"><img src="img/thumbs/thumb-01.png" alt=""></div>
-		<div class="col-md-2"><img src="img/thumbs/thumb-01.png" alt=""></div>
-		<div class="col-md-2"><img src="img/thumbs/thumb-01.png" alt=""></div>
-		<div class="col-md-2"><img src="img/thumbs/thumb-01.png" alt=""></div>
-		<div class="col-md-2"><img src="img/thumbs/thumb-01.png" alt=""></div>
-	</div>
-	<div class="row">
-		<div class="col-md-2"><img src="img/thumbs/thumb-01.png" alt=""></div>
-		<div class="col-md-2"><img src="img/thumbs/thumb-01.png" alt=""></div>
-		<div class="col-md-2"><img src="img/thumbs/thumb-01.png" alt=""></div>
-		<div class="col-md-2"><img src="img/thumbs/thumb-01.png" alt=""></div>
-		<div class="col-md-2"><img src="img/thumbs/thumb-01.png" alt=""></div>
+		<div class="col-md-6 col-sm-10"><img src="img/thumbs/thumb-01.jpg" alt="foo" class="img-responsive"></div>
+		<div class="col-md-6 col-sm-10"><img src="img/thumbs/thumb-02.jpg" alt="foo" class="img-responsive"></div>
+		<div class="col-md-6 col-sm-10"><img src="img/thumbs/thumb-03.jpg" alt="foo" class="img-responsive"></div>
+		<div class="clearfix visible-sm-block"></div>
+		<div class="col-md-6 col-sm-10"><img src="img/thumbs/thumb-04.jpg" alt="foo" class="img-responsive"></div>
+		<div class="col-md-6 col-sm-10"><img src="img/thumbs/thumb-05.jpg" alt="foo" class="img-responsive"></div>
+		<div class="clearfix visible-md-block"></div>
+		<div class="col-md-6 col-sm-10"><img src="img/thumbs/thumb-06.jpg" alt="foo" class="img-responsive"></div>
+		<div class="clearfix visible-sm-block"></div>
+		<div class="col-md-6 col-sm-10"><img src="img/thumbs/thumb-07.jpg" alt="foo" class="img-responsive"></div>
+		<div class="col-md-6 col-sm-10"><img src="img/thumbs/thumb-08.jpg" alt="foo" class="img-responsive"></div>
+		<div class="col-md-6 col-sm-10"><img src="img/thumbs/thumb-09.jpg" alt="foo" class="img-responsive"></div>
+		<div class="clearfix visible-sm-block"></div>
+		<div class="col-md-6 col-sm-10"><img src="img/thumbs/thumb-10.jpg" alt="foo" class="img-responsive"></div>
+		<div class="clearfix visible-md-block"></div>
+		<div class="col-md-6 col-sm-10"><img src="img/thumbs/thumb-11.jpg" alt="foo" class="img-responsive"></div>
+		<div class="col-md-6 col-sm-10"><img src="img/thumbs/thumb-12.jpg" alt="foo" class="img-responsive"></div>
+		<div class="clearfix visible-sm-block"></div>
+		<div class="col-md-6 col-sm-10"><img src="img/thumbs/thumb-13.jpg" alt="foo" class="img-responsive"></div>
+		<div class="col-md-6 col-sm-10"><img src="img/thumbs/thumb-14.jpg" alt="foo" class="img-responsive"></div>
+		<div class="col-md-6 col-sm-10"><img src="img/thumbs/thumb-15.jpg" alt="foo" class="img-responsive"></div>
+		<div class="clearfix visible-md-block"></div>
+		<div class="clearfix visible-sm-block"></div>
+		<div style="clear: both;" class="col-md-6 col-sm-10"><img src="img/thumbs/thumb-16.jpg" alt="foo" class="img-responsive"></div>
+		<div class="col-md-6 col-sm-10"><img src="img/thumbs/thumb-17.jpg" alt="foo" class="img-responsive"></div>
+		<div class="col-md-6 col-sm-10"><img src="img/thumbs/thumb-18.jpg" alt="foo" class="img-responsive"></div>
+		<div class="clearfix visible-sm-block"></div>
+		<div class="col-md-6 col-sm-10"><img src="img/thumbs/thumb-19.jpg" alt="foo" class="img-responsive"></div>
+		<div class="col-md-6 col-sm-10"><img src="img/thumbs/thumb-20.jpg" alt="foo" class="img-responsive"></div>
+		<div class="clearfix visible-md-block"></div>
+		<div class="col-md-6 col-sm-10"><img src="img/thumbs/thumb-21.jpg" alt="foo" class="img-responsive"></div>
+		<div class="clearfix visible-sm-block"></div>
+		<div class="col-md-6 col-sm-10"><img src="img/thumbs/thumb-22.jpg" alt="foo" class="img-responsive"></div>
+		<div class="col-md-6 col-sm-10"><img src="img/thumbs/thumb-23.jpg" alt="foo" class="img-responsive"></div>
+		<div class="col-md-6 col-sm-10"><img src="img/thumbs/thumb-24.jpg" alt="foo" class="img-responsive"></div>
+		<div class="clearfix visible-sm-block"></div>
+		<div class="col-md-6 col-sm-10"><img src="img/thumbs/thumb-25.jpg" alt="foo" class="img-responsive"></div>
+		<div class="clearfix visible-md-block"></div>
+		<div class="col-md-6 col-sm-10"><img src="img/thumbs/thumb-26.jpg" alt="foo" class="img-responsive"></div>
+		<div class="col-md-6 col-sm-10"><img src="img/thumbs/thumb-27.jpg" alt="foo" class="img-responsive"></div>
+		<div class="clearfix visible-sm-block"></div>
+		<div class="col-md-6 col-sm-10"><img src="img/thumbs/thumb-28.jpg" alt="foo" class="img-responsive"></div>
+		<div class="col-md-6 col-sm-10"><img src="img/thumbs/thumb-29.jpg" alt="foo" class="img-responsive"></div>
+		<div class="col-md-6 col-sm-10"><img src="img/thumbs/thumb-30.jpg" alt="foo" class="img-responsive"></div>
+		<div class="clearfix visible-md-block"></div>
+		<div class="clearfix visible-sm-block"></div>
+		<div class="col-md-6 col-sm-10"><img src="img/thumbs/thumb-31.jpg" alt="foo" class="img-responsive"></div>
+		<div class="col-md-6 col-sm-10"><img src="img/thumbs/thumb-32.jpg" alt="foo" class="img-responsive"></div>
+		<div class="col-md-6 col-sm-10"><img src="img/thumbs/thumb-33.jpg" alt="foo" class="img-responsive"></div>
+		<div class="clearfix visible-sm-block"></div>
+		<div class="col-md-6 col-sm-10"><img src="img/thumbs/thumb-34.jpg" alt="foo" class="img-responsive"></div>
+		<div class="col-md-6 col-sm-10"><img src="img/thumbs/thumb-35.jpg" alt="foo" class="img-responsive"></div>
 	</div>
 </div>
 
