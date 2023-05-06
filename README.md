@@ -1,4 +1,4 @@
-# josiebishop
+# Portfoliosite
 
 ## todo
 - [ ] center logo below 360px width
